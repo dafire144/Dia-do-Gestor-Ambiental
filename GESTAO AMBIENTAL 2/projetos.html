@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dia do Gestor Ambiental</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    .green-theme {
+      color: green;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      width: 200px;
+      height: 150px;
+    }
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .image-container img:hover {
+      transform: scale(1.1);
+    }
+    .image-container .btn {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+    }
+    .title-bar {
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    .title-bar h1 {
+      font-size: 40px;
+      color: green;
+      margin: 0;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      width: 100px;
+      height: 100%;
+      background-repeat: repeat-y;
+      background-size: contain;
+      z-index: -1;
+    }
+    body::before {
+      left: 0;
+      background-image: url("https://img.freepik.com/psd-premium/palmeira-realista-com-folhas-de-primeiro-plano-isoladas_181653-5198.jpg?w=2000");
+    }
+    body::after {
+      right: 0;
+      background-image: url("https://img.freepik.com/psd-premium/palmeira-realista-com-folhas-de-primeiro-plano-isoladas_181653-5198.jpg?w=2000");
+      transform: scaleX(-1);
+    }
+    .footer-bar {
+      background-color: green;
+      padding: 1px 2px;
+      text-align: center;
+      color: white;
+      font-weight: bolder;
+      width: 100%;
+    }
+    .image-below-text {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 150px; /* Aumentei a margem inferior para acomodar o rodapé */
+    }
+    .image-below-text img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="title-bar">
+          <h1 class="green-theme">Projetos de Gestão Ambiental</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="d-flex justify-content-between">
+          <div class="image-container">
+            <img src="https://www.10wallpaper.com/wallpaper/3840x2400/1804/Mountain_Lake_Nature_4k_HD_Landscape_3840x2400.jpg" alt="Página Inicial">
+            <a href="index.html" class="btn btn-primary">Página Inicial</a>
+          </div>
+          <div class="image-container">
+            <img src="https://i.pinimg.com/originals/92/31/3b/92313bc1e9f73846662edc5681ad4408.jpg" alt="Sobre">
+            <a href="sobre.html" class="btn btn-primary">Sobre</a>
+          </div>
+          <div class="image-container">
+            <img src="https://wallpapercave.com/dwp1x/LtttNC6.jpg" alt="Serviços">
+            <a href="servicos.html" class="btn btn-primary">Serviços</a>
+          </div>
+          <div class="image-container">
+            <img src="https://wallpapercave.com/dwp1x/U62oqgB.jpg" alt="Projetos">
+            <a href="projetos.html" class="btn btn-primary">Projetos</a>
+          </div>
+          <div class="image-container">
+            <img src="https://wallpapercave.com/dwp1x/RUvWRxk.jpg" alt="Contato">
+            <a href="contato.html" class="btn btn-primary">Contato</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-6 offset-md-3">
+          <div class="justify-content-between">
+              <p>Hywind é o primeiro parque eólico flutuante do mundo, localizado na Noruega. Esse projeto inovador utiliza turbinas eólicas fixadas em estruturas flutuantes no mar, permitindo a geração de energia eólica em águas profundas, onde a instalação de turbinas convencionais seria inviável.</p>
+              <p>Hywind: O primeiro parque eólico flutuante do mundo - Noruega: </p>
+              <div class="image-container">
+                <img src="https://www.votorantim.com.br/academia/assets/uploads/hywind.jpg" alt="Imagem Hywind">
+              </div>
+  
+              <p>Liuzhou é uma cidade na China que ficou conhecida como a "cidade floresta". O projeto urbano de Liuzhou incorpora uma grande quantidade de áreas verdes, com uma densa cobertura de árvores e plantas, visando melhorar a qualidade do ar, proporcionar sombra e criar um ambiente mais saudável para os moradores.</p>
+              <p>Liuzhou: A “cidade floresta” – China: </p>
+              <div class="image-container">
+                <img src="https://viveroverde.com/images/cidades/cidade-floresta/Stefano-Boeri-Architetti_Liuzhou-Forest-city_view-2.jpg" alt="Imagem Liuzhou">
+              </div>
+            
+              <p>A cidade de Masdar, em Abu Dhabi, é uma cidade planejada que tem como objetivo ser totalmente sustentável e neutra em carbono. Ela é projetada para minimizar o consumo de energia e utilizar fontes renováveis, além de promover o transporte público eficiente e a gestão sustentável de resíduos.</p>
+              <p>Cidade de Masdar – Abu Dhabi: </p>
+              <div class="image-container">
+                <img src="https://transsolar.com/media/pages/projects/abu-dhabi-masterplan-masdar-city/d0fde81274-1667346130/1920px_masdar_neu.jpg" alt="Imagem Masdar">
+              </div>
+            
+              <p>No combate à pressão da mudança do clima na bacia de Martha Brae, na Jamaica, são implementadas ações para preservar a terra e os recursos naturais. Essas medidas incluem o reflorestamento, a proteção de áreas de conservação, o manejo sustentável da água e o desenvolvimento de práticas agrícolas e industriais mais sustentáveis, visando reduzir os impactos negativos e promover a resiliência ambiental.</p>
+              <p>Terra e preservação: combate à pressão da mudança do clima na bacia de Martha Brae – Jamaica: </p>
+              <div class="image-container">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/3d/2a/8e/photo0jpg.jpg?w=1200&h=-1&s=1" alt="Imagem Martha Brae">
+              </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-md-12">
+      <div class="image-below-text">
+      </div>
+    </div>
+  </div>
+</div>
+  <footer class="footer-bar">
+    <div class="container">
+      <p>Cuide do meio ambiente</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

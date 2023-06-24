@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dia do Gestor Ambiental</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    .green-theme {
+      color: green;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      width: 200px;
+      height: 150px;
+    }
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .image-container img:hover {
+      transform: scale(1.1);
+    }
+    .image-container .btn {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+    }
+    .title-bar {
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    .title-bar h1 {
+      font-size: 40px;
+      color: green;
+      margin: 0;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      width: 100px;
+      height: 100%;
+      background-repeat: repeat-y;
+      background-size: contain;
+      z-index: -1;
+    }
+    body::before {
+      left: 0;
+      background-image: url("https://img.freepik.com/psd-premium/palmeira-realista-com-folhas-de-primeiro-plano-isoladas_181653-5198.jpg?w=2000");
+    }
+    body::after {
+      right: 0;
+      background-image: url("https://img.freepik.com/psd-premium/palmeira-realista-com-folhas-de-primeiro-plano-isoladas_181653-5198.jpg?w=2000");
+      transform: scaleX(-1);
+    }
+    .footer-bar {
+      background-color: green;
+      padding: 1px 2px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      width: 100%;
+    }
+    .image-below-text {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 150px; /* Aumentei a margem inferior para acomodar o rodapé */
+    }
+    .image-below-text img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="title-bar">
+          <h1 class="green-theme">Bem-vindo ao Dia do Gestor Ambiental!</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="d-flex justify-content-between">
+          <div class="image-container">
+            <img src="https://www.10wallpaper.com/wallpaper/3840x2400/1804/Mountain_Lake_Nature_4k_HD_Landscape_3840x2400.jpg" alt="Página Inicial">
+            <a href="index.html" class="btn btn-primary">Página Inicial</a>
+          </div>
+          <div class="image-container">
+            <img src="https://i.pinimg.com/originals/92/31/3b/92313bc1e9f73846662edc5681ad4408.jpg" alt="Sobre">
+            <a href="sobre.html" class="btn btn-primary">Sobre</a>
+          </div>
+          <div class="image-container">
+            <img src="https://wallpapercave.com/dwp1x/LtttNC6.jpg" alt="Serviços">
+            <a href="servicos.html" class="btn btn-primary">Serviços</a>
+          </div>
+          <div class="image-container">
+            <img src="https://wallpapercave.com/dwp1x/U62oqgB.jpg" alt="Projetos">
+            <a href="projetos.html" class="btn btn-primary">Projetos</a>
+          </div>
+          <div class="image-container">
+            <img src="https://wallpapercave.com/dwp1x/RUvWRxk.jpg" alt="Contato">
+            <a href="contato.html" class="btn btn-primary">Contato</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-6 offset-md-3">
+        <div class="center-content">
+          <p style="text-shadow: 1px 1px 2px rgb(0, 4, 248);">Dia do Gestor Ambiental</p>
+          <p style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">O Dia do Gestor Ambiental é comemorado em 17 de junho e visa conscientizar sobre a importância da preservação do meio ambiente e da gestão sustentável.</p>
+          <p style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Explore nosso site para aprender mais sobre o trabalho dos gestores ambientais e descobrir como você pode contribuir para um futuro mais verde.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <div class="image-below-text">
+          <img src="https://images.educamaisbrasil.com.br/content/noticias/1706-dia-do-gestor-ambiental_g.jpg" alt="Imagem abaixo do texto">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-bar">
+    <div class="container">
+      <p>Cuide do meio ambiente</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

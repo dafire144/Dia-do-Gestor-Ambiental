@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dia do Gestor Ambiental</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    .green-theme {
+      color: green;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      width: 200px;
+      height: 150px;
+    }
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .image-container img:hover {
+      transform: scale(1.1);
+    }
+    .image-container .btn {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+    }
+    .title-bar {
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    .title-bar h1 {
+      font-size: 40px;
+      color: green;
+      margin: 0;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      width: 100px;
+      height: 100%;
+      background-repeat: repeat-y;
+      background-size: contain;
+      z-index: -1;
+    }
+    body::before {
+      left: 0;
+      background-image: url("https://img.freepik.com/psd-premium/palmeira-realista-com-folhas-de-primeiro-plano-isoladas_181653-5198.jpg?w=2000");
+    }
+    body::after {
+      right: 0;
+      background-image: url("https://img.freepik.com/psd-premium/palmeira-realista-com-folhas-de-primeiro-plano-isoladas_181653-5198.jpg?w=2000");
+      transform: scaleX(-1);
+    }
+    .footer-bar {
+      background-color: green;
+      padding: 1px 2px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      width: 100%;
+    }
+    .image-below-text {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 150px; /* Aumentei a margem inferior para acomodar o rodapé */
+    }
+    .image-below-text img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="title-bar">
+          <h1 class="green-theme">O que é um gestor ambiental?</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="d-flex justify-content-between">
+          <div class="image-container">
+            <img src="https://www.10wallpaper.com/wallpaper/3840x2400/1804/Mountain_Lake_Nature_4k_HD_Landscape_3840x2400.jpg" alt="Página Inicial">
+            <a href="index.html" class="btn btn-primary">Página Inicial</a>
+          </div>
+          <div class="image-container">
+            <img src="https://i.pinimg.com/originals/92/31/3b/92313bc1e9f73846662edc5681ad4408.jpg" alt="Sobre">
+            <a href="sobre.html" class="btn btn-primary">Sobre</a>
+          </div>
+          <div class="image-container">
+            <img src="https://wallpapercave.com/dwp1x/LtttNC6.jpg" alt="Serviços">
+            <a href="servicos.html" class="btn btn-primary">Serviços</a>
+          </div>
+          <div class="image-container">
+            <img src="https://wallpapercave.com/dwp1x/U62oqgB.jpg" alt="Projetos">
+            <a href="projetos.html" class="btn btn-primary">Projetos</a>
+          </div>
+          <div class="image-container">
+            <img src="https://wallpapercave.com/dwp1x/RUvWRxk.jpg" alt="Contato">
+            <a href="contato.html" class="btn btn-primary">Contato</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-6 offset-md-3">
+        <div class="justify-content-between">
+            <p>O gestor ambiental é um profissional que desempenha um papel fundamental na preservação e gestão sustentável do meio ambiente. Sua atuação envolve a elaboração, implementação e monitoramento de políticas e projetos ambientais, visando o equilíbrio entre o desenvolvimento econômico e a conservação dos recursos naturais. Com formação multidisciplinar, o gestor ambiental combina conhecimentos das áreas de ciências ambientais, engenharia, administração e direito, entre outras, para lidar com os desafios ambientais da atualidade.</p>
+
+            <p>A origem do gestor ambiental remonta às crescentes preocupações com as questões ambientais nas últimas décadas. O aumento da poluição, o esgotamento dos recursos naturais e as mudanças climáticas levaram à necessidade de uma abordagem mais integrada e profissional na gestão do meio ambiente. Surgiram então os primeiros cursos superiores voltados para a formação de gestores ambientais, proporcionando as ferramentas necessárias para enfrentar os desafios ambientais contemporâneos.</p>
+          
+            <p>O gestor ambiental atua em diferentes esferas da sociedade, seja no setor público, no privado ou em organizações não governamentais. No setor público, pode trabalhar em órgãos ambientais, desenvolvendo e implementando políticas de proteção ambiental, fiscalizando o cumprimento das leis e promovendo a educação ambiental. No setor privado, pode atuar em empresas de diversos segmentos, auxiliando na implementação de práticas sustentáveis, avaliando impactos ambientais e buscando soluções para minimizá-los.</p>
+          
+            <p>Além disso, o gestor ambiental desempenha um papel importante no planejamento e gestão de projetos ambientais. Ele avalia os impactos ambientais de empreendimentos, como a construção de estradas, barragens ou indústrias, e propõe medidas mitigadoras e compensatórias para garantir a sustentabilidade dessas atividades. Também pode estar envolvido na gestão de áreas protegidas, parques naturais e reservas ambientais, contribuindo para sua preservação e uso sustentável.</p>
+          
+            <p>Um aspecto fundamental do trabalho do gestor ambiental é a conscientização e o engajamento da sociedade. Ele busca sensibilizar a população sobre a importância da conservação ambiental, promovendo ações de educação e mobilização. Além disso, o gestor ambiental atua como mediador entre diferentes atores sociais, buscando o diálogo e a construção de soluções conjuntas para os problemas ambientais.</p>
+          
+            <p>Outra área de atuação relevante para o gestor ambiental é a gestão de resíduos sólidos. Ele desenvolve e implementa planos de gerenciamento de resíduos, visando a redução, reciclagem e destinação adequada dos materiais descartados. Também pode estar envolvido na gestão de recursos hídricos, monitorando a qualidade da água, propondo medidas de conservação e conscientização sobre o uso responsável da água, bem como na gestão de energia, promovendo a eficiência energética e a utilização de fontes renováveis.</p>
+          
+            <p>Em suma, o gestor ambiental desempenha um papel crucial na construção de um futuro mais sustentável. Sua atuação abrange desde a elaboração de políticas e projetos até a sensibilização da sociedade e a busca por soluções inovadoras. Com seu conhecimento e compromisso, o gestor ambiental contribui para a preservação dos recursos naturais, a proteção da biodiversidade e a melhoria da qualidade de vida das gerações presentes e futuras.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <div class="image-below-text">
+          <img src="https://blog.unifacig.edu.br/wp-content/uploads/2018/01/159044-o-que-faz-um-gestor-ambiental-aprenda-aqui.jpg" alt="Imagem abaixo do texto">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-bar">
+    <div class="container">
+      <p>Cuide do meio ambiente</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
